@@ -1,0 +1,96 @@
+
+<html>
+  <head>
+    <title>Miguel Pou's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/6e4228ac19.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+
+          var hash = this.hash;
+
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 900, function(){
+
+            window.location.hash = hash;
+            });
+          }
+        });
+      })
+    </script>
+
+  </head>
+  
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    
+    <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <div class="navbar-brand">
+        <a id="homeButton" href="#about">MIGUEL POU</a></div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#portfolio">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ 
+    <div id="about" class="parallax2 container-fluid">
+      <h1 id="box1" class="text-left name">About</h1>
+      <p id="aboutText" class="col-sm-5 description">I am a front-end web developer with a true love for turning ideas into reality and connecting people with technology. As a former school teacher, I know the value of knowledge and how to turn that into something usable and meaningful. If I'm away from the keyboard you'll find me traveling around trying my hand at aerial photography or playing my Breedlove acoustic.</p>
+      <p id="resumeBox" class="col-sm-5 description">
+        Resume
+        <br>
+        <br>
+          <a id="resume" href="pdf/resume.pdf"> <i class="fa fa-file-pdf-o fa-4x" aria-hidden="true"></i> PDF </a>
+          <br>
+          <br>
+          <a id="resume" href="pdf/resume.txt"> <i class="fa fa-file-text-o fa-4x" aria-hidden="true"></i> Text-Only </a>
+
+      </p>
+    </div>
+
+    <div id="portfolio" class="parallax1 container-fluid">
+      <h1 id="box2" class="text-right name">Projects</h1>
+      <div class="row text-center" style="margin-top:50px">
+        <a href="https://miguelapou.github.io/Pixel-Dodger/"><img src="img/pixel.png" class="img-thumbnail" width="304" height="236"></a>
+        <a href="https://gl0betrotter.herokuapp.com/"><img src="img/globe.png" class="img-thumbnail" width="304" height="236"></a>
+        <a href="http://wdi-pub-crawl.herokuapp.com/"><img src="img/crwl.png" class="img-thumbnail" width="304" height="236"></a>
+        <a href="https://miguelapou.github.io/Euclid/"><img src="img/euclid.png" class="img-thumbnail" width="304" height="236"></a>
+    </div>
+  </div>
+  
+<div id="contact" class="parallax3 container-fluid">
+  <h1 id="box3" class="text-left name">Contact</h1>
+<br>
+  <div class="row text-center">
+  <ul id="contactLinks">
+    <li class="sites"><a href="mailto:miguelapou@gmail.com"><i class="fa fa-envelope-o" style="font-size:120px;color:white;"></i></a></li>
+    <li class="sites"><a href="https://github.com/miguelapou"><i class="fa fa-github" style="font-size:120px;color:white;"></i></a></li>
+    <li class="sites"><a href="https://www.linkedin.com/in/miguelpou"><i class=" fa fa-linkedin" style="font-size:120px;color:white;"></i></a></li>
+    <li class="sites"><a href="https://www.instagram.com/retrofuture__/"><i class=" fa fa-instagram" style="font-size:120px;color:white;"></i></a></li>
+  </div>
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,55 @@
+MIGUEL POU
+
+CONTACT
+
+407-615-0657
+miguelapou@gmail.com
+linkedin.com/in/miguelpou
+www.miguelpou.com
+
+PROFILE
+
+I am a front-end web developer with a true love for problem solving and connecting people with technology. As a former school teacher, I know the value of knowledge and how to turn that into something usable and meaningful.
+
+PROFESSIONAL EXPERIENCE
+
+Web Development Immersive        		(July 2016 - October 2016)
+GENERAL ASSEMBLY - Seattle, WA
+12 week immersive program for full-stack web development focusing on responsive web applications.
+
+Teacher                                            (October 2013 - May 2016)
+SEMINOLE COUNTY P.S. - Orlando, FL
+Taught both advanced and standard 7th grade American government/civics. 
+Served as civics department PLC leader.
+
+Teacher                                      	(January 2013 - October 2013)
+IMAGINE CHARTER SCHOOLS - St. Petersburg, FL
+Taught grades 6, 7, 8 in world history, civics, and American history (respectively) in addition to Spanish as a second language.
+
+Server                                                (June 2010 - March 2016)
+COLORADO FONDUE COMPANY - Orlando, FL
+Maintained job as part-time while working in my career as a middle school teacher.
+
+Server                                                (June 2005 - March 2010)
+CARRABBA’S ITALIAN GRILL - Oviedo, FL
+Trainer
+
+EXPERTISE
+
+HTML5
+CSS3
+Bootstrap
+Javascript
+Node.js
+Express
+Ruby
+Ruby on Rails
+Git & Github
+
+EDUCATION
+
+Web Development Immersive - 2016
+General Assembly
+
+B.S., Social Science Education - 2012
+University of Central Florida

@@ -1,0 +1,163 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:600i|Shrikhand';
+
+h1 {
+    font-family: Shrikhand !important;
+}
+
+body, html {
+  height: 100%;
+  font-family: Raleway !important;
+ }
+
+footer {
+  min-height: 50px;
+  background-color:brown !important;
+}
+img {
+  width: 425px !important;
+  height: 525px !important;
+  margin-top: none !important;
+  margin-bottom: 10px !important;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+
+.jumbotron{
+  min-height: 768px;
+}
+
+.name{
+  color:white !important;
+  font-size:100px !important;
+  font-size: 10vw !important;
+  margin-top:100px;
+}
+
+.description {
+  color:white !important;
+  border:none !important;
+  height:468px;
+  font-size:24px !important;
+}
+
+.parallax1{
+  background-image: url("img/glacier.jpg");
+  min-height: 768px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 2px solid white;
+}
+
+.parallax2{
+  background-image: url("img/me.jpg");
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px !important;
+  border-bottom: 2px solid white;
+}
+
+.parallax3{
+  background-image: url("img/baker.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon-bar {
+  background-color: white !important;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #232b38 !important;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active  {
+  color: #f4511e !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  background-color: brown;
+  border-color: transparent;
+  color: #fff ;
+}
+
+.collapse {
+  color: white !important;
+}
+
+.sites:hover {
+  opacity: .5;
+}
+
+#homeButton {
+  text-decoration: none !important;
+}
+
+#homeButton:hover {
+  text-decoration: none !important;
+  background-color: none !important;
+  opacity: .5 !important;
+}
+
+#box1 {
+  margin-left: 130px;
+  color: #ef6337 !important;
+}
+
+#box2 {
+  margin-right: 100px;
+  color: #ef6337 !important;
+}
+
+#box3 {
+  margin-left: 100px;
+  color: #ef6337 !important;
+  margin-bottom: 50px;
+}
+
+#aboutText {
+  margin-left: 30px;
+  height: 325px !important;
+  min-width: 350px !important;
+}
+
+#resumeBox {
+  height: 300px;
+  padding-left: 135px;
+  color: #ef6337 !important;
+  padding-top: 20px;
+  display: inline-block;
+}
+
+#resume:hover {
+  text-decoration: none !important;
+  opacity: .5;
+}
+
+#resume {
+  color: white !important;
+}
+#contactLinks li {
+  display: inline !important;
+  padding: 80px;
+  margin-top: 150px;
+}
