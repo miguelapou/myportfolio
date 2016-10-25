@@ -21,7 +21,9 @@ img {
   margin-left: 5px !important;
   margin-right: 5px !important;
 }
-
+img:hover {
+  opacity: .5;
+}
 .jumbotron{
   min-height: 768px;
 }
