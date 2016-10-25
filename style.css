@@ -14,15 +14,63 @@ footer {
   background-color:brown !important;
 }
 img {
-  width: 425px !important;
-  height: 525px !important;
+  width: 250px !important;
+  height: 300px !important;
   margin-top: none !important;
   margin-bottom: 10px !important;
   margin-left: 5px !important;
   margin-right: 5px !important;
+  border: 5px solid white !important;
+  border-radius: 5px;
+  margin-top: 30px;
 }
-img:hover {
-  opacity: .5;
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 300px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 250px;
+}
+span.text-content {
+  margin-top: 30px;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 300px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+  opacity: 0;
+  margin-left: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+/*img:hover {
+  opacity: .5;*/
 }
 .jumbotron{
   min-height: 768px;
@@ -158,6 +206,17 @@ img:hover {
 #resume {
   color: white !important;
 }
+
+#contactLinks {
+  border: 5px solid white !important;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.5);
+  margin-right: 50px;
+  margin-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 #contactLinks li {
   display: inline !important;
   padding: 80px;
